@@ -57,6 +57,9 @@ async function getData() {
 
 addBtn.addEventListener('click', getData)
 
-input.addEventListener('keydown', (e) => {
+input.addEventListener('keyup', (e) => {
   if (e.key === 'Enter') getData()
 })
+
+const a  = 10
+console.log(a);
